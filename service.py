@@ -34,7 +34,7 @@ def signUp():
 
     while True:
         phone = input("Enter phone number\n")
-        if re.match(r'^[6-9]\d{9}$', phone):
+        if re.match(r'^[6-8]\d{9}$', phone):
             break
         else:
             print("Invalid phone number")
@@ -145,7 +145,7 @@ def adminDashboard():
 
     while True:
 
-        print("\n------ ADMIN DASHBOARD ------")
+        print("\n------DASHBOARD FOR ADMIN------")
         print("1.Admin Details")
         print("2.All Customers")
         print("3.Search Customer")
