@@ -17,7 +17,7 @@ class User:
         self.accountType = accountType
         self.userId = userId
         self.password = password
-        self.balance = 0
+        self.balance = 5
 
 
 class Transaction:
